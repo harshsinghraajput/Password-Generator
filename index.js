@@ -31,6 +31,7 @@ function handleSlider() {
     const min = inputSlider.min;
     const max = inputSlider.max;
     inputSlider.style.backgroundSize = ( (passwordLength - min)*100/(max - min)) + "% 100%"
+    // Using this line we can check the percentage our slider is covering---->console.log(inputSlider.style.backgroundSize);
 }
 
 function setIndicator(color) {

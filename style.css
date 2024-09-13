@@ -235,6 +235,8 @@ h1 {
     z-index:-1;
 }
 
+/* slider Thumb woh h jismeey hmhara values or length of the password set horha h
+Circle type of icon jisko grab krkey hm adjust kr rhe h */
 .slider::-webkit-slider-thumb {
     position:relative;
     z-index:1;
